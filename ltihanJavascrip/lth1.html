@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan javascrip</title>
+</head>
+
+<body>
+    <h1>latihan java scrip</h1>
+    <input type="text" id="angka1">
+    <br>
+    <input type="text" id="angka2">
+    <br>
+    <input type="button" value="tambah" onclick="tambah()">
+    <input type="button" value="kurang" onclick="kurang()">
+    <input type="button" value="kali" onclick="kali()">
+    <input type="button" value="bagi" onclick="bagi()">
+    <input type="button" value="modulus" onclick="modulus()">
+    <br>
+    <input type="button" value="hapus" onclick="hapus()">
+    <br>
+    <input type="text" id="hasil">
+    <script>
+        alert('selamat belajar javascript');
+        var angka = "12.5";
+        // mengconver string ke float
+        var angka1 = parseFloat(angka);
+        alert(angka1);
+
+        function tambah() {
+            var angka1 = document.getElementById('angka1').value;
+            var angka2 = document.getElementById('angka2').value;
+            var hasil = parseInt(angka1) + parseInt(angka2);
+            document.getElementById('hasil').value = hasil;
+        }
+
+        function hapus() {
+            document.getElementById('hasil').value = '';
+            document.getElementById('angka1').value = '';
+            document.getElementById('angka2').value = '';
+        }
+    </script>
+</body>
+
+</html>
