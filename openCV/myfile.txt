@@ -1,0 +1,9 @@
++-------+--------+
+|  Nama | kelas  |
++-------+--------+
+| Nama0 | kelas0 |
+| Nama2 | kelas2 |
+| Nama4 | kelas4 |
+| Nama6 | kelas6 |
+| Nama8 | kelas8 |
++-------+--------+
