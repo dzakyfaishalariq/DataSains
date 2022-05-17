@@ -4,7 +4,7 @@ os.system("cls")
 nilai = 10
 nilai2 = 10.0
 nilai3 = "String"
-nilai4 = 'u'
+nilai4 = '&'
 
 print(type(nilai))
 print(type(nilai2))
