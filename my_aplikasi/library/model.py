@@ -1,5 +1,4 @@
 # menyambungkan ke database xampp
-from unicodedata import name
 import pymysql as sql
 # conek database
 
@@ -28,11 +27,19 @@ class Databases:
     # fungsi untuk mengupdate data
 
     def update(self, query):
-        pass
+        self.c.execute(query)
+        self.conn.commit()
+    # fungsi untuk menghapus data
+
+    def delete(self, query):
+        self.c.execute(query)
+        self.conn.commit()
 
 
 if __name__ == "__main__":
     db = Databases("localhost", "root", "", "crud_portal")
     db.connect()
+    # tambah data
+    db.create("INSERT INTO data VALUES(3,'Alfian','Jl.Kaliurang','0812121212')")
     for i in db.read("SELECT * FROM tb_mahasiswa"):
-        print(i[0], i[1], i[2])
+        print(i)
