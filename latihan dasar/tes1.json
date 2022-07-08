@@ -1,0 +1,28 @@
+[
+	{
+		"nama":"Dzaky Faishalariq",
+		"kelas":"Informatika A",
+		"Hobi" : [
+			"ongding",
+			"belajar"
+		],
+		"semester" : 4,
+		"orang tua " : {
+			"Ayah" : "Pirdaus",
+			"ibu" : "Eka Purwanti"
+		}
+	},
+	{
+		"nama":"Dzaky Faishalariq",
+		"kelas":"Informatika A",
+		"Hobi" : [
+			"ongding",
+			"belajar"
+		],
+		"semester" : 4,
+		"orang tua " : {
+			"Ayah" : "Pirdaus",
+			"ibu" : "Eka Purwanti"
+		}
+	}
+]
